@@ -478,6 +478,12 @@
       "kerosan"
     ]
   },
+  "Glossary/Bezier_curve": {
+    "modified": "2019-08-19T18:48:29.930Z",
+    "contributors": [
+      "regeneratorl"
+    ]
+  },
   "Glossary/BiDi": {
     "modified": "2019-03-18T21:25:00.810Z",
     "contributors": [
@@ -548,12 +554,6 @@
     "modified": "2019-03-23T22:17:49.487Z",
     "contributors": [
       "anastasiya-solodkaya"
-    ]
-  },
-  "Glossary/Bézier_curve": {
-    "modified": "2019-08-19T18:48:29.930Z",
-    "contributors": [
-      "regeneratorl"
     ]
   },
   "Glossary/CDN": {
@@ -7730,17 +7730,6 @@
       "ahtohbi4"
     ]
   },
-  "Web/API/EventListener": {
-    "modified": "2020-08-18T17:11:27.001Z",
-    "contributors": [
-      "proshka",
-      "Bargamut",
-      "m-kon",
-      "daydarkln",
-      "insafski",
-      "einperegrin"
-    ]
-  },
   "Web/API/EventSource": {
     "modified": "2020-10-15T21:38:17.102Z",
     "contributors": [
@@ -11075,6 +11064,12 @@
       "e-h-h"
     ]
   },
+  "Web/API/Window/afterprint_event": {
+    "modified": "2020-10-15T22:06:05.874Z",
+    "contributors": [
+      "Khich"
+    ]
+  },
   "Web/API/Window/alert": {
     "modified": "2020-10-15T21:48:09.472Z",
     "contributors": [
@@ -11497,12 +11492,6 @@
       "teoli"
     ]
   },
-  "Web/API/WindowEventHandlers/onafterprint": {
-    "modified": "2020-10-15T22:06:05.874Z",
-    "contributors": [
-      "Khich"
-    ]
-  },
   "Web/API/WindowEventHandlers/onbeforeunload": {
     "modified": "2020-10-15T21:52:01.565Z",
     "contributors": [
@@ -11515,12 +11504,6 @@
       "vitalyzhakov",
       "artemderzkiy",
       "rtf-const"
-    ]
-  },
-  "Web/API/WindowEventHandlers/onhashchange": {
-    "modified": "2019-03-23T22:58:29.697Z",
-    "contributors": [
-      "alexismaster"
     ]
   },
   "Web/API/WindowEventHandlers/onpopstate": {
@@ -12719,11 +12702,19 @@
       "hinduCoder"
     ]
   },
-  "Web/CSS/CSS_Color": {
+  "Web/CSS/CSS_Colors": {
     "modified": "2019-03-23T22:34:30.410Z",
     "contributors": [
       "BychekRU",
       "Krenair"
+    ]
+  },
+  "Web/CSS/CSS_Colors/Applying_color": {
+    "modified": "2019-03-18T21:45:50.255Z",
+    "contributors": [
+      "ChristinaKrapivina",
+      "warsan",
+      "kasperyan"
     ]
   },
   "Web/CSS/CSS_Colors/Color_picker_tool": {
@@ -14990,14 +14981,6 @@
       "Defolter",
       "irmatov",
       "Elrow"
-    ]
-  },
-  "Web/HTML/Applying_color": {
-    "modified": "2019-03-18T21:45:50.255Z",
-    "contributors": [
-      "ChristinaKrapivina",
-      "warsan",
-      "kasperyan"
     ]
   },
   "Web/HTML/Attributes": {
@@ -24120,11 +24103,14 @@
     ]
   },
   "conflicting/Web/API/EventTarget/addEventListener": {
-    "modified": "2020-12-08T04:43:39.858Z",
+    "modified": "2020-08-18T17:11:27.001Z",
     "contributors": [
-      "bershanskiy",
-      "akrom123",
-      "paulvoloschuk"
+      "proshka",
+      "Bargamut",
+      "m-kon",
+      "daydarkln",
+      "insafski",
+      "einperegrin"
     ]
   },
   "conflicting/Web/API/EventTarget/removeEventListener": {
@@ -24239,6 +24225,12 @@
     "modified": "2020-11-17T12:45:18.585Z",
     "contributors": [
       "venanen"
+    ]
+  },
+  "conflicting/Web/API/Window/hashchange_event": {
+    "modified": "2019-03-23T22:58:29.697Z",
+    "contributors": [
+      "alexismaster"
     ]
   },
   "conflicting/Web/API/Window/localStorage": {

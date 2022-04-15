@@ -492,6 +492,13 @@
       "daisuke-f"
     ]
   },
+  "Glossary/Bezier_curve": {
+    "modified": "2020-08-10T13:51:05.629Z",
+    "contributors": [
+      "mfuji09",
+      "nelsadeki"
+    ]
+  },
   "Glossary/BiDi": {
     "modified": "2019-03-18T21:27:00.954Z",
     "contributors": [
@@ -590,13 +597,6 @@
       "Uemmra3",
       "hamasaki",
       "momdo"
-    ]
-  },
-  "Glossary/Bézier_curve": {
-    "modified": "2020-08-10T13:51:05.629Z",
-    "contributors": [
-      "mfuji09",
-      "nelsadeki"
     ]
   },
   "Glossary/CDN": {
@@ -14381,13 +14381,6 @@
       "Shunter1112"
     ]
   },
-  "Web/API/EventListener": {
-    "modified": "2020-02-11T06:17:04.429Z",
-    "contributors": [
-      "tyankatsu",
-      "Marsf"
-    ]
-  },
   "Web/API/EventSource": {
     "modified": "2020-10-15T21:41:41.782Z",
     "contributors": [
@@ -21409,12 +21402,6 @@
       "Wind1808"
     ]
   },
-  "Web/API/ServiceWorkerRegistration/onupdatefound": {
-    "modified": "2020-10-15T22:29:08.998Z",
-    "contributors": [
-      "Wind1808"
-    ]
-  },
   "Web/API/ServiceWorkerRegistration/periodicSync": {
     "modified": "2020-10-15T22:29:07.996Z",
     "contributors": [
@@ -21458,6 +21445,12 @@
     "contributors": [
       "Wind1808",
       "YuichiNukiyama"
+    ]
+  },
+  "Web/API/ServiceWorkerRegistration/updatefound_event": {
+    "modified": "2020-10-15T22:29:08.998Z",
+    "contributors": [
+      "Wind1808"
     ]
   },
   "Web/API/ServiceWorkerRegistration/waiting": {
@@ -24946,22 +24939,6 @@
       "teoli"
     ]
   },
-  "Web/API/WindowEventHandlers/onafterprint": {
-    "modified": "2020-10-15T21:27:41.445Z",
-    "contributors": [
-      "Wind1808",
-      "teoli",
-      "jsx",
-      "abechiyo"
-    ]
-  },
-  "Web/API/WindowEventHandlers/onbeforeprint": {
-    "modified": "2020-10-15T22:09:32.822Z",
-    "contributors": [
-      "Wind1808",
-      "mfuji09"
-    ]
-  },
   "Web/API/WindowEventHandlers/onbeforeunload": {
     "modified": "2020-10-15T21:23:43.857Z",
     "contributors": [
@@ -24971,16 +24948,6 @@
       "teoli",
       "khalid32",
       "ethertank"
-    ]
-  },
-  "Web/API/WindowEventHandlers/onhashchange": {
-    "modified": "2020-10-15T21:22:09.270Z",
-    "contributors": [
-      "Wind1808",
-      "teoli",
-      "khalid32",
-      "ethertank",
-      "yoheiMune"
     ]
   },
   "Web/API/WindowEventHandlers/onlanguagechange": {
@@ -27837,10 +27804,20 @@
       "mfuji09"
     ]
   },
-  "Web/CSS/CSS_Color": {
+  "Web/CSS/CSS_Colors": {
     "modified": "2020-10-15T22:04:14.476Z",
     "contributors": [
       "mfuji09"
+    ]
+  },
+  "Web/CSS/CSS_Colors/Applying_color": {
+    "modified": "2020-12-08T11:01:26.496Z",
+    "contributors": [
+      "MikuroXina",
+      "mizukichandayo",
+      "mfuji09",
+      "piza_suki",
+      "karaage-kun"
     ]
   },
   "Web/CSS/CSS_Colors/Color_picker_tool": {
@@ -33363,16 +33340,6 @@
       "Taken Bot",
       "julionc",
       "Shimono"
-    ]
-  },
-  "Web/HTML/Applying_color": {
-    "modified": "2020-12-08T11:01:26.496Z",
-    "contributors": [
-      "MikuroXina",
-      "mizukichandayo",
-      "mfuji09",
-      "piza_suki",
-      "karaage-kun"
     ]
   },
   "Web/HTML/Attributes": {
@@ -48229,6 +48196,13 @@
       "mfuji09"
     ]
   },
+  "conflicting/Web/API/EventTarget/addEventListener_380cb5f366307beb2c072f74e561ee98": {
+    "modified": "2020-02-11T06:17:04.429Z",
+    "contributors": [
+      "tyankatsu",
+      "Marsf"
+    ]
+  },
   "conflicting/Web/API/File/name": {
     "modified": "2020-09-25T16:45:23.436Z",
     "contributors": [
@@ -48402,11 +48376,27 @@
       "mfuji09"
     ]
   },
+  "conflicting/Web/API/Window/afterprint_event": {
+    "modified": "2020-10-15T21:27:41.445Z",
+    "contributors": [
+      "Wind1808",
+      "teoli",
+      "jsx",
+      "abechiyo"
+    ]
+  },
   "conflicting/Web/API/Window/appinstalled_event": {
     "modified": "2020-10-15T21:49:27.262Z",
     "contributors": [
       "Marsf",
       "YuichiNukiyama"
+    ]
+  },
+  "conflicting/Web/API/Window/beforeprint_event": {
+    "modified": "2020-10-15T22:09:32.822Z",
+    "contributors": [
+      "Wind1808",
+      "mfuji09"
     ]
   },
   "conflicting/Web/API/Window/devicemotion_event": {
@@ -48426,6 +48416,16 @@
     "contributors": [
       "Potappo",
       "T.Ukegawa"
+    ]
+  },
+  "conflicting/Web/API/Window/hashchange_event": {
+    "modified": "2020-10-15T21:22:09.270Z",
+    "contributors": [
+      "Wind1808",
+      "teoli",
+      "khalid32",
+      "ethertank",
+      "yoheiMune"
     ]
   },
   "conflicting/Web/API/Window/messageerror_event": {

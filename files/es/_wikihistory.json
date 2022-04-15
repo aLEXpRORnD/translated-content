@@ -6461,13 +6461,6 @@
       "Chacho"
     ]
   },
-  "Web/API/EventListener": {
-    "modified": "2019-03-23T22:49:37.176Z",
-    "contributors": [
-      "gdlm91",
-      "japho"
-    ]
-  },
   "Web/API/EventSource": {
     "modified": "2019-03-23T22:10:23.912Z",
     "contributors": [
@@ -9056,13 +9049,6 @@
       "jota1410"
     ]
   },
-  "Web/API/WindowEventHandlers/onhashchange": {
-    "modified": "2019-03-23T22:49:36.790Z",
-    "contributors": [
-      "AlePerez92",
-      "daesnorey"
-    ]
-  },
   "Web/API/WindowEventHandlers/onpopstate": {
     "modified": "2020-10-15T22:19:35.746Z",
     "contributors": [
@@ -10656,7 +10642,7 @@
       "javichito"
     ]
   },
-  "Web/CSS/CSS_Color": {
+  "Web/CSS/CSS_Colors": {
     "modified": "2019-03-23T22:23:30.277Z",
     "contributors": [
       "betelleclerc",
@@ -21317,6 +21303,13 @@
       "tureey"
     ]
   },
+  "conflicting/Web/API/EventTarget/addEventListener": {
+    "modified": "2019-03-23T22:49:37.176Z",
+    "contributors": [
+      "gdlm91",
+      "japho"
+    ]
+  },
   "conflicting/Web/API/File/name": {
     "modified": "2020-02-09T09:40:59.258Z",
     "contributors": [
@@ -21395,6 +21388,13 @@
       "Mgjbot",
       "Superruzafa",
       "Nukeador"
+    ]
+  },
+  "conflicting/Web/API/Window/hashchange_event": {
+    "modified": "2019-03-23T22:49:36.790Z",
+    "contributors": [
+      "AlePerez92",
+      "daesnorey"
     ]
   },
   "conflicting/Web/API/Window/localStorage": {
